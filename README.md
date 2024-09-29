@@ -1,5 +1,17 @@
 # Norse IoT Club: MQTT Lesson
 
+## HOW TO USE THIS CODE:
+
+If you want to work with this code, you can either:
+
+1. [download the zip file](https://github.com/Norse-IoT/lesson-mqtt/archive/refs/heads/main.zip)
+2. run the command `git clone https://github.com/Norse-IoT/lesson-mqtt.git` 
+3. clone this via [GitHub desktop](https://desktop.github.com/download/)
+
+Then, you can use [Arduino IDE](https://www.arduino.cc/en/software) to open each `.ino` file.
+
+## Setup Required
+
 For this project, you will need:
 - An ESP32, or equivalent
 - An MQTT network
