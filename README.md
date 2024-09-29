@@ -18,7 +18,6 @@ const char *password = "YOUR_PASSWORD";  // Enter Wi-Fi password
 
 // MQTT Broker
 const char *mqtt_broker = "10.0.1.2";
-const char *topic = "norseiot/YOUR_TOPIC"; // choose a topic
 const int mqtt_port = 1883;
 ```
 
