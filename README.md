@@ -2,7 +2,7 @@
 
 ## HOW TO USE THIS CODE:
 
-If you want to work with this code, you can either:
+If you want to work with this code, you can **either**:
 
 1. [download the zip file](https://github.com/Norse-IoT/lesson-mqtt/archive/refs/heads/main.zip)
 2. run the command `git clone https://github.com/Norse-IoT/lesson-mqtt.git` 
