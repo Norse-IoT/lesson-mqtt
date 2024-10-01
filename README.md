@@ -34,6 +34,7 @@ const int mqtt_port = 1883;
 
 Relevant links:
 
+- <https://www.arduino.cc/en/software> - Download Arduino IDE here
 - <https://mqtt-explorer.com/> - Recommended Desktop MQTT explorer
 - <https://norseiot.club/>
 - <https://wiki.norseiot.club/>
