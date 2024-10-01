@@ -16,10 +16,7 @@ For this project, you will need:
 - An ESP32, or equivalent
 - An MQTT network
 
-This project uses an "arduino-secrets.h" file in the root directory.
-
-**This should be in a file called `arduino-secrets.h`.** 
-Make sure it is in the same folder as `README.md`. Do not put it in any of the `lesson-*` folders.
+Every lesson folder has a file called `arduino-secrets.h` which you'll need to update with the Wi-Fi password.
 
 ```cpp
 #pragma once
