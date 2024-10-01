@@ -28,13 +28,13 @@ void setup() {
     String client_id = "esp32-client-";
     client_id += String(WiFi.macAddress());
     Serial.printf("The client %s connects to the public MQTT broker\n", client_id.c_str());
-        if (client.connect(client_id.c_str()) {
+    if (client.connect(client_id.c_str())) {
       Serial.println("Public EMQX MQTT broker connected");
-        } else {
+    } else {
       Serial.print("failed with state ");
       Serial.print(client.state());
       delay(2000);
-        }
+    }
   }
 
   client.subscribe(topic);
@@ -54,5 +54,3 @@ void callback(char *topic, byte *payload, unsigned int length) {
 void loop() {
   client.loop();
 }
-
-
